@@ -1,0 +1,24 @@
+/*fundo minha img*/
+.fundo{
+    background-image: url(./img/proj/eu.png);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom: 8px solid black;
+    padding-top: 115px;
+    padding-left: 90px;
+}
+.fundo .wrapper{
+    display: flex;
+    flex-direction:column; 
+    width: 640px;
+}
+
+.fundo #box {
+    margin-bottom: 40px;
+}
+
+.fundo .navigation{
+    display: flex;
+    justify-content: center;
+}
