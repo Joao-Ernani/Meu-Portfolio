@@ -121,6 +121,7 @@ h2{
 /*fundo minha img*/
 .fundo{
     background-image: url(../img/proj/eu.png);
+    position: relative;
     height: 900px;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -148,12 +149,12 @@ h2{
     border: 8px solid black;
 }
 .L{
-    border-left: 5px solid black;
-    height: 910px;
-    position: absolute;
-    left: 50%;
-    margin-left: 197px;
-    top: 100px;
+  border-left: 6px solid black;
+  height: 900px;
+  position: absolute;
+  left: 64%;
+  margin-left: 3px;
+  top: 0;
 }
 .linha{
     border: 8px solid black;
